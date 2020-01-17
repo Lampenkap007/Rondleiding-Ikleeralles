@@ -51,4 +51,9 @@ In de popups div moet de nieuwe popup toegevoegd worden.
     document.getElementById("arrow4").style.visibility = "visible";
   }
   ``` 
+    voeg in js.js de nieuwe logica toe op de slide.
+
+  ## Toekomstige ontwikkeling
+  
+  Het is nu nog wat simpel gerealiseerd. Voor verdere ontwikkeling raad ik aan om nog animaties toe te voegen om het geheel wat aantrekkelijk te maken. Daarnaast is nu de hele navbar gehighlight tijdens de tour. Het is beter als de desbetreffende knop gehighlight word, dan de hele navbar.
   voeg in js.js de nieuwe logica toe op de slide.
