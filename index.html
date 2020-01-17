@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rondleiding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/67dcf3289a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js.js"></script>
+  </head>
+  <div class="navbar">
+    <div class="navbarLeft">
+      Ikleeralles.nl
+      <div class="button">
+        Mijn lijsten
+        <div class="arrow" id="arrow1"><i class="fas fa-arrow-up"></i></div>
+      </div>
+      <div class="button">
+        Kaarten
+        <div class="arrow" id="arrow2"><i class="fas fa-arrow-up"></i></div>
+      </div>
+      <div class="button">
+        Nieuws
+        <div class="arrow" id="arrow3"><i class="fas fa-arrow-up"></i></div>
+      </div>
+    </div>
+    <div class="navbarRight">
+      <i class="far fa-user"></i>
+      <p class="user"> Lampenkap007<div class="arrow" id="arrow4"><i class="fas fa-arrow-up"></i></div></p>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
+  <div id="opacityoverlay"></div>
+
+  <body>
+      <img src="ILA_Logo_Oranje.png" class="img" alt="">
+    <div class="popups">
+      <div class="popup" id="popup1">1</div>
+      <div class="popup" id="popup2">2</div>
+      <div class="popup" id="popup3">3</div>
+      <div class="popup" id="popup4">4</div>
+    </div>
+    <div id="next" onclick="next()">Next</div>
+    <p id="skip" onclick="skip()">Overslaan</p>
+  </body>
+</html>

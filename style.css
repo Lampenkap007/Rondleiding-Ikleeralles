@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  font-family: "Just Another Hand", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#opacityoverlay {
+  z-index: -99;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+  background-color: black;
+  position: absolute;
+}
+.navbar {
+  align-self: baseline;
+  z-index: 99;
+  position: absolute;
+  height: 110px;
+  width: 100vw;
+  background-color: #fb7333;
+  border-top: solid 20px;
+  border-color: #b33407;
+  display: flex;
+  align-content: center;
+}
+.button {
+  font-size: 25px;
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #ed682c;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #b33407;
+}
+.navbarLeft {
+  font-size: 75px;
+  color: white;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbarRight {
+  font-size: 25px;
+  color: white;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+}
+.user:hover {
+  cursor: pointer;
+}
+.popups {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 60px;
+  height: 600px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 50px;
+}
+#popup1 {
+}
+#popup2 {
+  visibility: hidden;
+}
+#popup3 {
+  visibility: hidden;
+}
+#popup4 {
+  visibility: hidden;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  font-size: 75px;
+  position: absolute;
+  top: 100px;
+}
+#arrow2 {
+  visibility: hidden;
+}
+#arrow3 {
+  visibility: hidden;
+}
+#arrow4 {
+  visibility: hidden;
+}
+#next {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  width: 175px;
+  height: 60px;
+  background-color: #1bba63;
+  right: 30px;
+  border-radius: 10px;
+}
+#next:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #286946;
+}
+#skip {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: underline;
+  bottom: 50px;
+  left: 50px;
+}
+#skip:hover {
+  cursor: pointer;
+}
+.img {
+  position: absolute;
+  height: 400px;
+}
